@@ -41,9 +41,9 @@ public class FileUploadServiceImpl implements FileUploadService{
         this.jwtService = jwtService;
         this.bazaRepository = bazaRepository;
         this.cloudinary = new Cloudinary(ObjectUtils.asMap(
-                "cloud_name", "dvaqydzob",
-                "api_key", "827576999974998",
-                "api_secret", "g07jmjsNZP-k-xNWtA5MVrhlNsQ"));
+                "cloud_name", "Sexsi cloudinaryname",
+                "api_key", "cloudinaryapikey",
+                "api_secret", "cloudinarysecretkey"));
     }
     @Override
     public String uploadFile(MultipartFile file) throws IOException {
