@@ -1,4 +1,4 @@
-  Certainly! Below is a formatted README.md file for your project:
+
 
 ```markdown
 # Exam Management System
